@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Restoran - Bootstrap Restaurant Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+  <!-- Navbar & Hero Start -->
+  <div class="container-xxl position-relative p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+        <a href="" class="navbar-brand p-0">
+            <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>O Mirante</h1>
+            <!-- <img src="img/logo.png" alt="Logo"> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0 pe-4">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">O Restaurante</a>
+                <a href="menu.html" class="nav-item nav-link  active">Ementa</a>
+               <!-- <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="booking.html" class="dropdown-item">Booking</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    </div>
+                </div>-->
+                <a href="contact.html" class="nav-item nav-link">Contactos</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- Navbar & Hero End -->
+
+
+        <!-- Menu Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                   <!-- <h5 class="section-title ff-secondary text-center text-primary fw-normal">Ementa</h5>
+                    <h1 class="mb-5">...</h1>-->
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item"style="margin-bottom: 24px;">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                       <!--<small class="text-body">...</small>-->
+                                    <h5 class="mt-n1 mb-0">Pizzas</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-bottom: 24px;">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                       <!--<small class="text-body">...</small>-->
+                                    <h5 class="mt-n1 mb-0">Carne</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-bottom: 24px;">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <!--<small class="text-body">...</small>-->
+                                    <h5 class="mt-n1 mb-0">Peixe</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-bottom: 24px;">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-4">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <!--<small class="text-body">...</small>-->
+                                    <h5 class="mt-n1 mb-0">Massas</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-bottom: 24px;">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-5">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <!--<small class="text-body">...</small>-->
+                                    <h5 class="mt-n1 mb-0">Omoletas</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-bottom: 24px;">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-6">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <!--<small class="text-body">...</small>-->
+                                    <h5 class="mt-n1 mb-0">Pratos Vegetarianos</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-bottom: 24px;">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-7">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <!--<small class="text-body">...</small>-->
+                                    <h5 class="mt-n1 mb-0">Hambúrgueres</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-bottom: 24px;">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-8">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <!--<small class="text-body">...</small>-->
+                                    <h5 class="mt-n1 mb-0">Francesinhas</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-bottom: 24px;">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-9">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <!--<small class="text-body">...</small>-->
+                                    <h5 class="mt-n1 mb-0">Saladas</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-bottom: 24px;">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-10">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <!--<small class="text-body">...</small>-->
+                                    <h5 class="mt-n1 mb-0">Sobremesas</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-bottom: 24px;">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-11">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <!--<small class="text-body">...</small>-->
+                                    <h5 class="mt-n1 mb-0">Bebidas</h5>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <h2 style="margin-bottom: 36px;" class="section-title ff-secondary text-center text-primary fw-normal"> 
+                                Pizzas</h2>
+                            <div class="row g-6">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>4 Estações</span>
+                                    <span class="text-primary">5.75€ &nbsp   6.75€</span>
+                                    </h5>
+                                    <small class="fst-italic">Mozzarella, tomate,
+                                        fiambre, cogumelos, pimentos,
+                                        azeitonas, orégãos
+                                        </small><p></p>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Bella Itália</span>
+                                    <span class="text-primary">5.75€ &nbsp   6.75€</span>
+                                    </h5>
+                                    <small class="fst-italic">Mozzarella, tomate,
+                                    salami, milho, alcaparras, 
+                                    pimentos, azeitonas, orégãos</small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Bôla à Mirante             
+                                    </span>
+                                    <span class="text-primary">6.25€ &nbsp    7.25€</span>
+                                    </h5>
+                                    <small class="fst-italic">Mozzarella, 	
+                                    tomate, fiambre, presunto	
+                                    chourição, 
+                                    2 camadas de massa</small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Bolonhesa  	    	 
+                                    </span>
+                                    <span class="text-primary">6.25€ &nbsp    7.25€</span>
+                                    </h5>
+                                    <small class="fst-italic">Mozzarella, tomate, carne picada, Azeitonas, orégãos</small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Capri
+                                    </span>
+                                    <span class="text-primary">6.25€ &nbsp    7.25€</span>
+                                    </h5>
+                                    <small class="fst-italic">Mozzarella, fiambre, bacon, tomate e ovo à rodela, cebola, orégãos</small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Calzón</span>
+                                    <span class="text-primary">5.95€ &nbsp    6.95€</span>
+                                    </h5>
+                                    <small class="fst-italic">Mozzarella, tomate, fiambre, cogumelos, ovo, cebola, azeitonas, orégãos</small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Camponesa</span>
+                                    <span class="text-primary">5.75€ &nbsp    6.75€</span>
+                                    </h5>
+                                    <small class="fst-italic">Mozzarella, tomate, bacon, cebola, azeitonas,
+                                    orégãos</small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Caprichiosa</span>
+                                    <span class="text-primary">6.25€ &nbsp    7.25€</span>
+                                    </h5>
+                                    <small class="fst-italic">Mozzarella, tomate, presunto, banana, azeitonas, orégãos</small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Exótica</span>
+                                    <span class="text-primary">5.75€ &nbsp    6.75€</span>
+                                    </h5>
+                                    <small class="fst-italic">Mozzarella, tomate, fiambre, pêssego, ananás, banana</small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Hawai</span>
+                                    <span class="text-primary">5.75€ &nbsp    6.75€</span>
+                                    </h5>
+                                    <small class="fst-italic">Mozzarella, tomate, fiambre, cogumelos e ananás e orégãos</small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Margarida</span>
+                                    <span class="text-primary">5.50€ &nbsp    6.50€</span>
+                                    </h5>
+                                    <small class="fst-italic">Mozzarella, tomate, fiambre, azeitonas e orégãos</small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Napolitana</span>
+                                    <span class="text-primary">5.75€ &nbsp    6.75€</span>
+                                    </h5>
+                                    <small class="fst-italic">Mozzarella, tomate, fiambre, cogumelos e orégãos</small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Pescador</span>
+                                    <span class="text-primary">6.75€ &nbsp    7.75€</span>
+                                    </h5>
+                                    <small class="fst-italic">Mozzarella, tomate, marisco, azeitonas, orégãos</small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Pizza à Mirante <p style="
+                                        margin: 0;"></p> com Quatro Queijos </span >
+                                    <span class="text-primary">6.25€ &nbsp    7.25€</span>
+                                    </h5>
+                                    <small class="fst-italic">Frango, ananás, cogumelos, orégãos, azeitonas</small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Pizza de Anchovas</span>
+                                    <span class="text-primary">5.75€ &nbsp    6.75€</span>
+                                    </h5>
+                                    <small class="fst-italic">Mozzarella, tomate, anchovas, alcaparras azeitonas, orégãos</small><p></p>
+                                    
+                                    </div>
+                                    </div>
+                                    </div>
+
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Pizza Royal</span >
+                                        <span class='text-primary'>6.45€ &nbsp   7.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Mozzarella, tomate, carne picada, ovo, cogumelos, natas, azeitonas, orégãos</small><p></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Pizza Salami</span >
+                                        <span class='text-primary'>5.75€ &nbsp   6.75€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Mozzarella, salami, azeitonas, orégãos</small><p></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Pizza Vegetariana I</span >
+                                        <span class='text-primary'>5.75€ &nbsp   6.75€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Mozzarella, tomate, cogumelos, pimentos, milho, cebola, azeitonas, orégãos
+                                        </small><p></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Pizza Vegetariana II</span >
+                                        <span class='text-primary'>5.95€ &nbsp   6.95€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Mozzarella, tomate, legumes, pimentos, cogumelos, natas, azeitonas, orégãos
+                                        </small><p></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Regional</span >
+                                        <span class='text-primary'>6.25€ &nbsp   7.25€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Mozzarella, tomate, frango, bacon, pimento,
+                                        cogumelos, azeitonas, orégãos
+                                        </small><p></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Romana</span >
+                                        <span class='text-primary'>6.45€ &nbsp   7.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Mozzarella, tomate, atum, cebola, azeitonas e orégãos</small><p></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Siciliana</span >
+                                        <span class='text-primary'>5.75€ &nbsp   6.75€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Mozzarella, tomate, bacon, chourição, pimentos, azeitonas, orégãos
+                                        </small><p></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Tissino</span >
+                                        <span class='text-primary'>5.75€ &nbsp   6.75€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Mozzarella, tomate, chourição picante, azeitonas, orégãos</small><p></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Tunisiana</span >
+                                        <span class='text-primary'>5.75€ &nbsp   6.75€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Mozzarella, tomate, chourição, azeitonas, orégãos</small><p></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Veneziana</span >
+                                        <span class='text-primary'>6.45€ &nbsp   7.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Mozzarella, tomate, bacon, fiambre, chourição, azeitonas, orégãos</small><p></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Calábria</span >
+                                        <span class='text-primary'>6.45€ &nbsp   7.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Mozzarella, tomate, atum, ananás, azeitonas, orégãos</small><p></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Sabor Intenso</span >
+                                        <span class='text-primary'>5.95€ &nbsp   6.95€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Mozzarela, tomate, queijo gorgonzola, azeitonas, orégãos
+                                        </small><p></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Donna Gorgonzola</span >
+                                        <span class='text-primary'>5.95€ &nbsp   6.95€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Mozzarella, tomate, queijo gorgonzola, folhas de salva, orégãos      
+                                        </small><p></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Sollo Mio</span >
+                                        <span class='text-primary'>6.25€ &nbsp   7.25€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Mozzarella, tomate, presunto, azeitonas, orégãos
+                                        </small><p></p>
+                                        </div>
+                                        </div>
+                                        </div>
+
+
+
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <h2 style="margin-bottom: 36px;" class="section-title ff-secondary text-center text-primary fw-normal"> 
+                                Carne de Vitela</h2>
+                            <div class="row g-4">
+                                
+                                <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Bitoque de Vitela</span >
+                                    <span class='text-primary'>7.95€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Medalhões de Vitela c/ Cogumelos</span >
+                                    <span class='text-primary'>9.45€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Bife à Moda de Alvarenga</span >
+                                    <span class='text-primary'>11.45€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Nacos de Vitela à Moda da Casa</span >
+                                    <span class='text-primary'>11.45€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Nacos c/ Arroz de feijão</span >
+                                    <span class='text-primary'>11.95€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Supremo Bife de Vitela c/ Pimenta Rosa</span >
+                                    <span class='text-primary'>12.95€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Vitela Assada no Forno</span >
+                                    <span class='text-primary'>10.45€</span>
+                                    </h5>
+                                    <small class='fst-italic'>(aos Domingos ou por encomenda)</small><p></p>
+                                    </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <h2 style="margin-bottom: 36px;" class="section-title ff-secondary text-center text-primary fw-normal"> 
+                                Carne de Frango</h2>
+                            <div class="row g-4">
+                                
+                                <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Bitoque de Frango</span >
+                                    <span class='text-primary'>7.25€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Bifinhos de Frango c/ Cogumelos</span >
+                                    <span class='text-primary'>8.45€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Laminado de Frango c/ Caril</span >
+                                    <span class='text-primary'>8.75€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Bife Grelhado à Moda da Casa</span >
+                                    <span class='text-primary'>8.95€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Bifinhos de Frango c/  Camarão</span >
+                                    <span class='text-primary'>10.95€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <h2 style="margin-bottom: 36px;" class="section-title ff-secondary text-center text-primary fw-normal"> 
+                                Carne de Porco</h2>
+                            <div class="row g-4">
+                                
+                                <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Bitoque de Vitela</span >
+                                    <span class='text-primary'>7.95€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Medalhões de Vitela c/ Cogumelos</span >
+                                    <span class='text-primary'>9.45€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Bife à Moda de Alvarenga</span >
+                                    <span class='text-primary'>11.45€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Nacos de Vitela à Moda da Casa</span >
+                                    <span class='text-primary'>11.45€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Nacos c/ Arroz de feijão</span >
+                                    <span class='text-primary'>11.95€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Supremo Bife de Vitela c/ Pimenta Rosa</span >
+                                    <span class='text-primary'>12.95€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Vitela Assada no Forno</span >
+                                    <span class='text-primary'>10.45€</span>
+                                    </h5>
+                                    <small class='fst-italic'>(aos Domingos ou por encomenda)</small><p></p>
+                                    </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <h2 style="margin-bottom: 36px;" class="section-title ff-secondary text-center text-primary fw-normal"> 
+                                Peixe</h2>
+                            <div class="row g-4">
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Bitoque de Vitela</span >
+                                        <span class='text-primary'>7.95€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Medalhões de Vitela c/ Cogumelos</span >
+                                        <span class='text-primary'>9.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Bife à Moda de Alvarenga</span >
+                                        <span class='text-primary'>11.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Nacos de Vitela à Moda da Casa</span >
+                                        <span class='text-primary'>11.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Nacos c/ Arroz de feijão</span >
+                                        <span class='text-primary'>11.95€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Supremo Bife de Vitela c/ Pimenta Rosa</span >
+                                        <span class='text-primary'>12.95€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Vitela Assada no Forno</span >
+                                        <span class='text-primary'>10.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'>(aos Domingos ou por encomenda)</small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div id="tab-4" class="tab-pane fade show p-0">
+                            <h2 style="margin-bottom: 36px;" class="section-title ff-secondary text-center text-primary fw-normal"> 
+                                Massas</h2>
+                            <div class="row g-4">
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Esparguete à Bolonhesa</span >
+                                        <span class='text-primary'>6.95€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Esparguete à Carbonara</span >
+                                        <span class='text-primary'>6.95€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Esparguete à Pescador</span >
+                                        <span class='text-primary'>7.75€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                            </div>
+                        </div>
+                        <div id="tab-5" class="tab-pane fade show p-0">
+                            <h2 style="margin-bottom: 36px;" class="section-title ff-secondary text-center text-primary fw-normal"> 
+                                Omeletas</h2>
+                            <div class="row g-4">
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Omeleta de Queijo </span >
+                                        <span class='text-primary'>6.25€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Omeleta de Mista</span >
+                                        <span class='text-primary'>6.50€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Omeleta de Cogumelos </span >
+                                        <span class='text-primary'>6.25€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    
+                            </div>
+                        </div>
+                        <div id="tab-6" class="tab-pane fade show p-0">
+                            <h2 style="margin-bottom: 36px;" class="section-title ff-secondary text-center text-primary fw-normal"> 
+                                Pratos Vegetarianos</h2>
+                            <div class="row g-4">
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Almôndegas vegetarianas </span >
+                                        <span class='text-primary'>7.95€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Laminado de Seitan c/ Salteado de Vegetais </span >
+                                        <span class='text-primary'>7.95€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    
+                            </div>
+                        </div>
+                        <div id="tab-7" class="tab-pane fade show p-0">
+                            <h2 style="margin-bottom: 36px;" class="section-title ff-secondary text-center text-primary fw-normal"> 
+                                Hambúrgueres</h2>
+                            <div class="row g-4">
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Chicken Burger</span >
+                                        <span class='text-primary'>6.95€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Carne de Frango, alface, cheddar, tomate, cebola caramelizada e bacon</small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Texas Burger</span >
+                                        <span class='text-primary'>7.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Carne de Vitela, alface, tomate, cheddar, cebola caramelizada e bacon </small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Black Boston Burger</span >
+                                        <span class='text-primary'>7.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'>Pão Preto, Carne de Vitela, cheddar, cebola roxa e pepino</small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    
+                            </div>
+                        </div>
+                        <div id="tab-8" class="tab-pane fade show p-0">
+                            <h2 style="margin-bottom: 36px;" class="section-title ff-secondary text-center text-primary fw-normal"> 
+                                Francesinhas</h2>
+                            <div class="row g-4">
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Francesinha de Frango</span >
+                                        <span class='text-primary'>7.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Francesinha de Porco</span >
+                                        <span class='text-primary'>7.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Francesinha de Vitela</span >
+                                        <span class='text-primary'>7.95€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    
+                            </div>
+                        </div>
+                        <div id="tab-9" class="tab-pane fade show p-0">
+                            <h2 style="margin-bottom: 36px;" class="section-title ff-secondary text-center text-primary fw-normal"> 
+                                Saladas</h2>
+                            <div class="row g-4">
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Salada de Frango c/ Ananás</span >
+                                        <span class='text-primary'>7.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Salada de Frango c/ Queijo, Nozes e Caju</span >
+                                        <span class='text-primary'>7.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Salada de Atum c/ Ovo e Frutas</span >
+                                        <span class='text-primary'>7.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    
+                            </div>
+                        </div>
+                        <div id="tab-10" class="tab-pane fade show p-0">
+                            <h2 style="margin-bottom: 36px;" class="section-title ff-secondary text-center text-primary fw-normal"> 
+                                Sobremesas</h2>
+                            <div class="row g-4">
+                                <div class='col-lg-6'>
+                                    <div class='d-flex align-items-center'>
+                                    <div class='w-100 d-flex flex-column text-start ps-4'>
+                                    <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                    <span>Mousse de Chocolate / Leite Creme</span >
+                                    <span class='text-primary'>2.75€</span>
+                                    </h5>
+                                    <small class='fst-italic'></small><p></p>
+                                    </div>
+                                    </div>
+                                </div>                                
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Natas do Céu</span >
+                                        <span class='text-primary'>2.95€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Pudim Caseiro / Baba de Camelo</span >
+                                        <span class='text-primary'>2.75€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Salada de Fruta/ Abacaxi</span >
+                                        <span class='text-primary'>2.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Fruta da Época/Maçã Assada</span >
+                                        <span class='text-primary'>1.75€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Taça à Mirante</span >
+                                        <span class='text-primary'>4.95€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    
+                            </div>
+                        </div>
+                        <div id="tab-11" class="tab-pane fade show p-0">
+                            <h2 style="margin-bottom: 36px;" class="section-title ff-secondary text-center text-primary fw-normal"> 
+                                Bebidas</h2>
+                            <div class="row g-4">
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Agua 1,5L</span >
+                                        <span class='text-primary'>1.75€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-lg-6'>
+                                        <div class='d-flex align-items-center'>
+                                        <div class='w-100 d-flex flex-column text-start ps-4'>
+                                        <h5 class='d-flex justify-content-between border-bottom pb-2'>
+                                        <span>Sumos 0,33l</span >
+                                        <span class='text-primary'>1.45€</span>
+                                        </h5>
+                                        <small class='fst-italic'></small><p></p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <!--<div class="col-lg-3 col-md-6">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h5>
+                        <a class="btn btn-link" href="">About Us</a>
+                        <a class="btn btn-link" href="">Contact Us</a>
+                        <a class="btn btn-link" href="">Reservation</a>
+                        <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="">Terms & Condition</a>
+                    </div>-->
+                    <div class="col-lg-6 col-md-6">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contactos</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Rua Nelson Neves Bandeira, 3680-095, Oliveira de Frades</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>232762711</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Hórario de Funcionamento</h5>
+                        <h5 class="text-light fw-normal">Hórario</h5>
+                        <p>09:00 - 00:00</p>
+                        <h5 class="text-light fw-normal">Quarta-Feira</h5>
+                        <p>Encerrado</p>
+                    </div>
+                    <!--<div class="col-lg-3 col-md-6">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h5>
+                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-12 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Restaurante "O Mirante"</a>, All Right Reserved. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
+                            Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                        </div>
+                        <!--<div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
